@@ -8,6 +8,8 @@ function f = randarbmulti(x,y,N)
 cdf_y = cumsum(y);
 sum_y = sum(y);
 
+f = zeros(N,1);
+
 for j = 1:N
 	
 	% Compute a uniform random number between 0 and sum(y)
